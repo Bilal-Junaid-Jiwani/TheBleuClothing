@@ -46,15 +46,15 @@ const Contact = () => {
                         <div className="space-y-6 font-mono">
                             <div>
                                 <h3 className="font-bold uppercase mb-1">Email</h3>
-                                <p className="text-xl">INFO@THEBLEU.COM.PK</p>
+                                <p className="text-xl">abdulsamad@thebleu.com.pk</p>
                             </div>
                             <div>
                                 <h3 className="font-bold uppercase mb-1">Phone</h3>
-                                <p className="text-xl">+92 300 1234567</p>
+                                <p className="text-xl">(021)37229454</p>
                             </div>
                             <div>
                                 <h3 className="font-bold uppercase mb-1">Address</h3>
-                                <p className="text-xl">KARACHI, PAKISTAN</p>
+                                <p className="text-xl">Head Office: D-22/1, Block-17, Gulshan-e-Iqbal, Karachi-75300, Pakistan</p>
                             </div>
                         </div>
                     </div>

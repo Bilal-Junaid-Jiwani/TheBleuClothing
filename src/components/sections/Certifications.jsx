@@ -16,6 +16,11 @@ const Certifications = () => {
             title: "ISO 22000:2018",
             image: "/cert-iso.jpg",
             description: "Quality Assurance & Food Safety Management"
+        },
+        {
+            title: "SEDEX",
+            image: "/sedex.png",
+            description: "Empowering Responsible Supply Chains"
         }
     ];
 
@@ -26,7 +31,7 @@ const Certifications = () => {
 
             <div className="container mx-auto px-6 relative z-10">
                 <div className="text-center mb-20">
-                    <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-6">
+                    <h2 className="text-3xl md:text-5xl lg:text-6xl font-black uppercase tracking-tighter mb-6">
                         Certified Excellence
                     </h2>
                     <p className="text-gray-400 max-w-2xl mx-auto font-mono text-lg">
@@ -34,7 +39,7 @@ const Certifications = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {certifications.map((cert, index) => (
                         <div
                             key={index}

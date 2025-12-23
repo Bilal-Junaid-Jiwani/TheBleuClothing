@@ -8,7 +8,7 @@ const Header = () => {
         <header className="fixed top-0 left-0 w-full z-50 bg-black border-b-2 border-white">
             <div className="container mx-auto px-6 py-4 flex justify-between items-center">
                 {/* Logo */}
-                <a href="#" className="text-xl md:text-2xl font-black tracking-tighter text-white uppercase italic">
+                <a href="#" className="text-lg md:text-2xl font-black tracking-tighter text-white uppercase italic">
                     The Bleu Clothing Company
                 </a>
 

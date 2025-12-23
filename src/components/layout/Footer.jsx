@@ -4,9 +4,9 @@ const Footer = () => {
     return (
         <footer className="bg-black text-white border-t-4 border-white pt-16 pb-8">
             <div className="container mx-auto px-6">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                     <div className="col-span-1 md:col-span-2">
-                        <h2 className="text-4xl md:text-6xl font-black tracking-tighter leading-none mb-6">
+                        <h2 className="text-3xl md:text-6xl font-black tracking-tighter leading-none mb-6">
                             THE BLEU<br />CLOTHING COMPANY
                         </h2>
                         <p className="text-gray-400 max-w-md font-mono text-sm">
@@ -34,9 +34,9 @@ const Footer = () => {
                             Contact
                         </h3>
                         <ul className="space-y-3 font-mono text-sm text-gray-400">
-                            <li>INFO@THEBLEU.COM.PK</li>
-                            <li>+92 300 1234567</li>
-                            <li>KARACHI, PAKISTAN</li>
+                            <li>abdulsamad@thebleu.com.pk</li>
+                            <li>(021)37229454</li>
+                            <li>Head Office: D-22/1, Block-17, Gulshan-e-Iqbal, Karachi-75300, Pakistan</li>
                         </ul>
                     </div>
                 </div>

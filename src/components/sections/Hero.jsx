@@ -13,7 +13,7 @@ const Hero = () => {
                 <div className="w-full h-full" style={{ backgroundImage: 'linear-gradient(#333 1px, transparent 1px), linear-gradient(90deg, #333 1px, transparent 1px)', backgroundSize: '50px 50px' }}></div>
             </div>
 
-            <div className="container mx-auto px-6 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="container mx-auto px-6 relative z-10 grid grid-cols-1 gap-12 items-center">
                 <motion.div
                     initial={{ opacity: 0, x: -50 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -22,7 +22,7 @@ const Hero = () => {
                     <div className="inline-block bg-blue-600 text-white px-4 py-1 font-mono text-sm mb-6">
                         EST. 2011
                     </div>
-                    <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-none mb-8">
+                    <h1 className="text-3xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-none mb-8">
                         INTERNATIONAL<br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">
                             THREADS & FABRICS
@@ -49,26 +49,7 @@ const Hero = () => {
                     </div>
                 </motion.div>
 
-                <motion.div
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.8, delay: 0.2 }}
-                    className="relative mt-8 lg:mt-0"
-                >
-                    <div className="border-4 border-white p-4 relative max-w-md mx-auto lg:max-w-md">
-                        <div className="absolute -top-4 -right-4 w-24 h-24 bg-blue-600 z-0"></div>
-                        <div className="absolute -bottom-4 -left-4 w-24 h-24 border-2 border-gray-700 z-0"></div>
-                        {/* Placeholder for Hero Image - In a real app, use an actual image */}
-                        <div className="bg-gray-900 aspect-[4/5] relative z-10 flex items-center justify-center overflow-hidden grayscale contrast-125">
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-20"></div>
-                            <img
-                                src="/hero-image.png"
-                                alt="Industrial Fashion"
-                                className="absolute inset-0 w-full h-full object-cover opacity-90"
-                            />
-                        </div>
-                    </div>
-                </motion.div>
+
             </div>
 
             {/* Scroll Indicator */}

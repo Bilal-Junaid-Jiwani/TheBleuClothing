@@ -81,11 +81,12 @@ const Products = () => {
     return (
         <section id="products" className="bg-black text-white py-24 border-t-2 border-white/20">
             <div className="container mx-auto px-6">
-                <div className="flex flex-col md:flex-row justify-between items-end mb-16">
+                <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16">
                     <div>
                         <h2 className="text-4xl md:text-7xl font-black uppercase tracking-tighter leading-none">
                             Our<br />Products
                         </h2>
+                        <div className="w-24 h-2 bg-blue-600 mt-8 mb-8"></div>
                     </div>
                     <div className="mt-8 md:mt-0">
                         {/* Button Removed */}
