@@ -5,9 +5,20 @@ const About = () => {
     return (
         <section id="about" className="bg-white text-black py-20 relative overflow-hidden">
             {/* Marquee */}
-            <div className="absolute top-0 left-0 w-full bg-blue-600 text-white py-2 overflow-hidden whitespace-nowrap rotate-1 scale-105 z-10 border-y-2 border-black">
-                <div className="animate-marquee inline-block font-black text-xl uppercase tracking-widest">
-                    Quality • Reliability • Innovation • Global Standards • Sustainable Practices • Quality • Reliability • Innovation • Global Standards • Sustainable Practices •
+            <div className="absolute top-0 left-0 w-full bg-blue-600 text-white py-2 overflow-hidden flex items-center rotate-1 scale-105 z-10 border-y-2 border-black">
+                <div className="animate-marquee whitespace-nowrap">
+                    <span className="text-xl font-black uppercase tracking-widest mx-4">
+                        Quality • Reliability • Innovation • Global Standards • Sustainable Practices •
+                    </span>
+                    <span className="text-xl font-black uppercase tracking-widest mx-4">
+                        Quality • Reliability • Innovation • Global Standards • Sustainable Practices •
+                    </span>
+                    <span className="text-xl font-black uppercase tracking-widest mx-4">
+                        Quality • Reliability • Innovation • Global Standards • Sustainable Practices •
+                    </span>
+                    <span className="text-xl font-black uppercase tracking-widest mx-4">
+                        Quality • Reliability • Innovation • Global Standards • Sustainable Practices •
+                    </span>
                 </div>
             </div>
 
@@ -41,7 +52,7 @@ const About = () => {
                                 <p className="text-sm uppercase tracking-widest text-gray-600">Years Experience</p>
                             </div>
                             <div>
-                                <h3 className="text-4xl font-black">50+</h3>
+                                <h3 className="text-4xl font-black">20+</h3>
                                 <p className="text-sm uppercase tracking-widest text-gray-600">Global Partners</p>
                             </div>
                         </div>

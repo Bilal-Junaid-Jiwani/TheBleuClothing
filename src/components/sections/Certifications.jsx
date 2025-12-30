@@ -43,7 +43,7 @@ const Certifications = () => {
                     {certifications.map((cert, index) => (
                         <div
                             key={index}
-                            className="group relative bg-gray-900 border border-white/10 p-8 rounded-sm hover:border-blue-600 transition-all duration-500 hover:shadow-[0_0_50px_rgba(37,99,235,0.15)]"
+                            className={`group relative bg-gray-900 border border-white/10 p-8 rounded-sm hover:border-blue-600 transition-all duration-500 hover:shadow-[0_0_50px_rgba(37,99,235,0.15)] ${index === 3 ? 'md:col-span-2 lg:col-span-1 lg:col-start-2' : ''}`}
                         >
                             {/* Corner Accents */}
                             <div className="absolute top-0 left-0 w-2 h-2 bg-white/20 group-hover:bg-blue-500 transition-colors"></div>

@@ -34,7 +34,7 @@ const Footer = () => {
                             Contact
                         </h3>
                         <ul className="space-y-3 font-mono text-sm text-gray-400">
-                            <li>abdulsamad@thebleu.com.pk</li>
+                            <li>info@thebleu.com.pk</li>
                             <li>(021)37229454</li>
                             <li>Head Office: D-22/1, Block-17, Gulshan-e-Iqbal, Karachi-75300, Pakistan</li>
                         </ul>
@@ -44,7 +44,7 @@ const Footer = () => {
                 <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center font-mono text-xs text-gray-500">
                     <p>&copy; 2025 THE BLEU CLOTHING COMPANY.</p>
                     <p>
-                        DESIGNED BY <a href="https://www.linkedin.com/in/bilal-junaid-jiwani/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors">BILAL JUNAID JIWANI</a>
+                        DESIGNED BY <a href="https://www.linkedin.com/in/bilal-junaid-jiwani/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors">Technovora</a>
                     </p>
                 </div>
             </div>

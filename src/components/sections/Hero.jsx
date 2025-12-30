@@ -30,7 +30,7 @@ const Hero = () => {
                     </h1>
                     <p className="text-lg md:text-xl text-gray-400 max-w-lg mb-10 font-mono">
                         Premium manufacturing solutions for the global fashion industry.
-                        Specializing in high-quality fabrics and medical textiles.
+                        Specializing in high-quality Threads, Fabrics and Medical Textiles.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4">
                         <Button
